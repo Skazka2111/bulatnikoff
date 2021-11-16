@@ -32,7 +32,7 @@ function App() {
                             <a href={`https://vk.com/app5898182_-196295046#s=1471896&utm_medium=${utm_medium}`} target={"_blank"} className="linkWithImage" rel="noreferrer">
                                 <img className="linkImage" src={vk} alt="ВКонтакте" />
                             </a>
-                            <a href={`https://t.me/Infoproducer_Bot?ref=${utm_medium}`} target="_blank" className="linkWithImage" rel="noreferrer">
+                            <a href={`https://t.me/Infoproducer_Bot?ref=${promokod}`} target="_blank" className="linkWithImage" rel="noreferrer">
                                 <img className="linkImage" src={telegram} alt="Telegram" />
                             </a>
                           
@@ -76,7 +76,7 @@ function App() {
                             </div>
                             <div className="instagramLink">
                                 <a
-                                    href={"https://instagram.com/zelenminions"}
+                                    href={"https://instagram.com/iliabulatnikov"}
                                     target={"_blank"}
                                     className="instagramLinkButton" rel="noreferrer"
                                 >
