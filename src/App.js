@@ -7,10 +7,6 @@ import vk from "./assets/img/vk.png";
 import telegram from "./assets/img/telegram.png";
 import instagram from "./assets/img/instagram.png";
 import instagramWhite from "./assets/img/instagram_white.png";
-import facebook from "./assets/img/facebook.png";
-import ok from "./assets/img/ok.png";
-import viber from "./assets/img/viber.png";
-import whatsapp from "./assets/img/whatsapp.png";
 
 function App() {
     const [currentPage, setCurrentPage] = useState(0);
@@ -31,7 +27,7 @@ function App() {
                         <div className="blockTexts">
                             <h2 className="title">Продажи через переписки</h2>
                             <p>
-                                ОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписание
+                                Обучу продавать онлайн-школы в переписках с конверсией до 30% без марафонов, вебинаров и прочих танцев.
                             </p>
                             <a href={`https://vk.com/app5898182_-196295046#s=1471896&utm_medium=${utm_medium}`} target={"_blank"} className="linkWithImage" rel="noreferrer">
                                 <img className="linkImage" src={vk} alt="ВКонтакте" />
@@ -39,18 +35,7 @@ function App() {
                             <a href={`https://t.me/Infoproducer_Bot?ref=${utm_medium}`} target="_blank" className="linkWithImage" rel="noreferrer">
                                 <img className="linkImage" src={telegram} alt="Telegram" />
                             </a>
-                            <a href="#" target="_blank" className="linkWithImage" rel="noreferrer">
-                                <img className="linkImage" src={facebook} alt="Facebook" />
-                            </a>
-                            <a href="#" target="_blank" className="linkWithImage" rel="noreferrer">
-                                <img className="linkImage" src={ok} alt="Odnoklassniki" />
-                            </a>
-                            <a href="#" target="_blank" className="linkWithImage" rel="noreferrer">
-                                <img className="linkImage" src={viber} alt="Viber" />
-                            </a>
-                            <a href="#" target="_blank" className="linkWithImage" rel="noreferrer">
-                                <img className="linkImage" src={whatsapp} alt="WhatsApp" />
-                            </a>
+                          
                             <span
                                 className={"linkWithImage tap"}
                                 onClick={() => setCurrentPage(1)}
@@ -67,7 +52,7 @@ function App() {
                             <p>
                                 Нажмите на кнопку ниже и у Вас автоматически скопируется Ваш код
                                 в буфер обмена, затем переходите в профиль Instagram, открывайте
-                                директ и отправляйте скопированный текст.
+                                директ, отправляйте скопированный текст и получите кейс как я заработал 10 миллионов рублей с рентабельностью 98% на охватах в 500
                             </p>
                             <div className="inputZone">
                                 <input
